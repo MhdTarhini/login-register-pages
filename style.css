@@ -9,6 +9,7 @@
     border: 1px solid black;
     border-radius: 20px;
     height: 400px;
+    width: 50%;
 }
 
 .login-side {
@@ -23,12 +24,14 @@
     border: none;
     border-bottom: 1px solid black;
     padding: 20px 10px;
+    margin-bottom: 10px;
 }
 
 #password {
     border: none;
     border-bottom: 1px solid black;
     padding: 20px 10px;
+    margin-bottom: 10px;
 }
 
 .login-btn {
@@ -38,8 +41,36 @@
     color: white;
     font-weight: bold;
     cursor: pointer;
+    margin-top: 10px;
 }
 
 .right-side {
     flex: 1;
+    background: url(./social-media-image.jpg);
+        background-size: cover;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end
+    }
+    
+    p {
+        text-align: center;
+        font-size: 17px;
+        font-weight: 700;
+        color: white
+    }
+    
+    .register-here-btn {
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+        margin: 30px;
+        background-color: #938eef;
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
 }
