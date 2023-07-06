@@ -46,7 +46,7 @@
 
 .right-side {
     flex: 1;
-    background: url(./social-media-image.jpg);
+    background: url(./assets/images/social-media-image.jpg);
         background-size: cover;
         border-radius: 20px;
         display: flex;
