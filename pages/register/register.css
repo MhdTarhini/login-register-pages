@@ -11,6 +11,7 @@
     border-radius: 20px;
     height: 400px;
     width: 50%;
+    box-shadow: 8px 13px 20px #938eef;
 }
 
 .register-side {
@@ -75,9 +76,7 @@ p {
     cursor: pointer;
     margin: 30px;
     background-color: #938eef;
-}
-
-a {
+    text-align: center;
     text-decoration: none;
     color: white;
     font-weight: bold;

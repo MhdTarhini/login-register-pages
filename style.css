@@ -10,6 +10,7 @@
     border-radius: 20px;
     height: 400px;
     width: 50%;
+    box-shadow: 8px 13px 20px #27FF71;
 }
 
 .login-side {
@@ -37,7 +38,7 @@
 .login-btn {
     padding: 10px;
     border: none;
-    background-color: #938eef;
+    background-color: #27FF71;
     color: white;
     font-weight: bold;
     cursor: pointer;
@@ -52,25 +53,22 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-end
-    }
-    
+        
+}
     p {
-        text-align: center;
+    text-align: center;
         font-size: 17px;
         font-weight: 700;
         color: white
     }
     
-    .register-here-btn {
-        padding: 10px;
-        border: none;
+.register-here-btn {
+    padding: 10px;
         cursor: pointer;
         margin: 30px;
-        background-color: #938eef;
-    }
-    
-    a {
+    background-color: #27FF71;
         text-decoration: none;
-        color: white;
+    text-align: center;
+    color: white;
         font-weight: bold;
 }
